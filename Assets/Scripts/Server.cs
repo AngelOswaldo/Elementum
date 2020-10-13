@@ -19,7 +19,7 @@ namespace Echo_Server
     class Program
     {
         static example Example = example.IPaddress;
-        static void Main(string[] args)
+        /*static void Main(string[] args)
         {
             switch (Example)
             {
@@ -40,7 +40,7 @@ namespace Echo_Server
                     break;
             }
 
-        }
+        }*/
 
         #region Main functions
         static void MainIPaddress(string[] args)
